@@ -6,7 +6,6 @@ services:
     branch: master
     dockerfilePath: ./Dockerfile
     buildCommand: ""
-    startCommand: "npm start"
     envVars:
       - key: WEBHOOK_URL
         value: https://YOUR_APP_URL
